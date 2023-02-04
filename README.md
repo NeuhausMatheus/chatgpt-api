@@ -17,8 +17,15 @@ node index.js
 
 It will start listening in: http://localhost:3001
 
+## Get your OpenAI's API Key
+
+You need to get an API key at: https://platform.openai.com/account/api-keys
+
+To be able to use this app. We also have a variable that queries an env. variable, where you can place it securily.
+
 ## Using NGROK (Optional)
 
 It's optional: You can start the NGROK`s ingress using:
 
 ngrok http 3001
+
