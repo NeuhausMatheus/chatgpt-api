@@ -24,8 +24,11 @@ You need to get an API key at: https://platform.openai.com/account/api-keys
 To be able to use this app. We also have a variable that queries an env. variable, where you can place it securily.
 
 const configuration = new Configuration({
+
     organization: "org-pdWE12LsfaaDCkgV123v12cxe1wdUPdsf53HFY12ffds3oO", //YOUR RANDOM GENERATED UUID ORG ID
+
     apikey: process.env.OPENAI_API_KEY,
+
 });
 
 We also have a random generated UUID that is used to identify you on the OpenAI's pool, that should be replaced.
