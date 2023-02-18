@@ -7,6 +7,7 @@ Please install the latest Node.js and fix all security/vulnerabilities needed (n
 The frontend app is on "src" folder and can be started using:
 
 cd src
+
 npm start
 
 It will start listening in: http://localhost:3000
