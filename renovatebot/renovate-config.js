@@ -8,7 +8,6 @@ module.exports = {
   dryRun: 'full',
   repositories: [
     'neuhausmatheus/chatgpt-api',
-    'neuhausmatheus',
   ],
   packageRules: [
     {
