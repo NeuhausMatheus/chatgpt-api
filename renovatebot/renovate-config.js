@@ -7,7 +7,8 @@ module.exports = {
   includeForks: true,
   dryRun: 'full',
   repositories: [
-    'https://github.com/neuhausmatheus/chatgpt-api',
+    'neuhausmatheus/chatgpt-api',
+    'neuhausmatheus',
   ],
   packageRules: [
     {
