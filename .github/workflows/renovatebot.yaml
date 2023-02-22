@@ -1,7 +1,10 @@
 name: Renovatebot
 on:
-  schedule:
-    - cron: '0/15 * * * *'
+  push:
+    branches:
+      - "*"
+#   schedule:
+#     - cron: '0/15 * * * *'
 jobs:
   renovate:
     runs-on: ubuntu-latest
