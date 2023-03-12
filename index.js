@@ -15,7 +15,7 @@ const port = 3001;
 dotenv.config();
 
 const configuration = new Configuration({
-    organization: "org-pdWE12LsfaaDCkgV123v12cxe1wdUPdsf53HFY12ffds3oO", //YOUR RANDOM GENERATED UUID ORG ID
+    organization: process.env.ORG, //YOUR RANDOM GENERATED UUID ORG ID
     apiKey: process.env.OPENAI_API_KEY,
 });
 
