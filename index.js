@@ -3,15 +3,20 @@
 
 const OpenAI = require('openai');
 const { Configuration, OpenAIApi } = OpenAI
+const dotenv = require('dotenv');
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+
+
 const app = express();
 const port = 3001;
+dotenv.config();
 
 const configuration = new Configuration({
     organization: "org-pdWE12LsfaaDCkgV123v12cxe1wdUPdsf53HFY12ffds3oO", //YOUR RANDOM GENERATED UUID ORG ID
-    apikey: process.env.OPENAI_API_KEY,
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
