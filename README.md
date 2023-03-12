@@ -26,9 +26,9 @@ To be able to use this app. We also have a variable that queries an env. variabl
 
     const configuration = new Configuration({
 
-        organization: "org-pdWE12LsfaaDCkgV123v12cxe1wdUPdsf53HFY12ffds3oO", //YOUR RANDOM GENERATED UUID ORG ID
+        organization: process.env.ORG,   //YOUR RANDOM GENERATED UUID ORG ID
 
-        apikey: process.env.OPENAI_API_KEY,
+        apiKey: process.env.OPENAI_API_KEY,
 
     });
 
